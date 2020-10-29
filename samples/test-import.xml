@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
+
+  <channel>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:author>
+      <wp:author_id>admin</wp:author_id>
+      <wp:author_login>admin</wp:author_login>
+      <wp:author_email>admin@admin.com</wp:author_email>
+      <wp:author_display_name>
+        <![CDATA[admin]]>
+      </wp:author_display_name>
+    </wp:author>
+    <wp:category>
+      <wp:term_id>1</wp:term_id>
+      <wp:category_nicename>news</wp:category_nicename>
+      <wp:cat_name>
+        <![CDATA[news]]>
+      </wp:cat_name>
+    </wp:category>
+    <item>
+      <title>My first post</title>
+      <dc:creator>
+        <![CDATA[admin]]>
+      </dc:creator>
+      <description></description>
+      <content:encoded>
+        <![CDATA[
+<p>Welcome to my first post!</p>
+]]>
+      </content:encoded>
+      <excerpt:encoded>
+        <![CDATA[]]>
+      </excerpt:encoded>
+      <wp:post_date>2015-03-01 16:20:00</wp:post_date>
+      <wp:status>publish</wp:status>
+      <wp:post_type>post</wp:post_type>
+    </item>
+
+    <item>
+      <category domain="category" nicename="news">
+        <![CDATA[news]]>
+      </category>
+      <title>My second post</title>
+      <dc:creator>
+        <![CDATA[admin]]>
+      </dc:creator>
+      <description></description>
+      <content:encoded>
+        <![CDATA[
+<p>Welcome to my second post!</p>
+]]>
+      </content:encoded>
+      <excerpt:encoded>
+        <![CDATA[]]>
+      </excerpt:encoded>
+      <wp:post_date>2015-03-02 16:20:00</wp:post_date>
+      <wp:status>publish</wp:status>
+      <wp:post_type>post</wp:post_type>
+    </item>
+
+    <item>
+      <title>My third post</title>
+      <dc:creator>
+        <![CDATA[admin]]>
+      </dc:creator>
+      <description></description>
+      <content:encoded>
+        <![CDATA[
+<p>Welcome to my third post!</p>
+]]>
+      </content:encoded>
+      <excerpt:encoded>
+        <![CDATA[]]>
+      </excerpt:encoded>
+      <wp:post_date>2015-03-03 16:20:00</wp:post_date>
+      <wp:status>publish</wp:status>
+      <wp:post_type>post</wp:post_type>
+    </item>
+    <item>
+      <category>stories</category>
+      <title>This is a story</title>
+      <dc:creator>
+        <![CDATA[admin]]>
+      </dc:creator>
+      <wp:post_type>post</wp:post_type>
+      <wp:post_date>2018-01-02 01:51:44</wp:post_date>
+      <wp:post_date_gmt>2018-01-02 01:51:44</wp:post_date_gmt>
+      <content:encoded>
+        <![CDATA[This is story content
+]]>
+      </content:encoded>
+      <wp:header_video />
+      <wp:comment_status>open</wp:comment_status>
+      <wp:status>publish</wp:status>
+      <wp:postmeta>
+        <wp:meta_key>_thumbnail_id</wp:meta_key>
+        <wp:meta_value>
+          <![CDATA[708]]>
+        </wp:meta_value>
+      </wp:postmeta>
+      <wp:comment>
+        <wp:comment_id>1</wp:comment_id>
+        <wp:comment_parent>0</wp:comment_parent>
+        <wp:comment_content>
+          <![CDATA[@admin - This is a comment.]]>
+        </wp:comment_content>
+        <wp:comment_author>
+          <![CDATA[admin]]>
+        </wp:comment_author>
+        <wp:comment_date>2018-01-02 17:16:25</wp:comment_date>
+        <wp:comment_date_gmt>2018-01-02 17:16:25</wp:comment_date_gmt>
+        <wp:comment_approved>1</wp:comment_approved>
+        <wp:status>publish</wp:status>
+      </wp:comment>
+      <wp:comment>
+        <wp:comment_id>2</wp:comment_id>
+        <wp:comment_parent>1</wp:comment_parent>
+        <wp:comment_content>
+          <![CDATA[<p>this is spam
+]]>
+        </wp:comment_content>
+        <wp:comment_author>
+          <![CDATA[another_user]]>
+        </wp:comment_author>
+        <wp:comment_date>2020-08-28 13:01:33</wp:comment_date>
+        <wp:comment_date_gmt>2020-08-28 13:01:33</wp:comment_date_gmt>
+        <wp:comment_approved>
+          <![CDATA[spam]]>
+        </wp:comment_approved>
+        <wp:status>spam</wp:status>
+      </wp:comment>
+    </item>
+    <item>
+      <wp:post_id>708</wp:post_id>
+      <wp:post_name>708</wp:post_name>
+      <wp:post_type>attachment</wp:post_type>
+      <wp:post_date>2020-10-09 11:23:07</wp:post_date>
+      <wp:post_date_gmt>2020-10-09 11:23:07</wp:post_date_gmt>
+      <wp:comment_status>closed</wp:comment_status>
+      <wp:status>publish</wp:status>
+      <wp:attachment_url>
+        <![CDATA[https://ichef.bbci.co.uk/news/1024/cpsprodpb/151AB/production/_111434468_gettyimages-1143489763.jpg]]>
+      </wp:attachment_url>
+    </item>
+  </channel>
+</rss>

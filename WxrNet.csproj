@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Elasticsearch7</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{319D39EA-C3C6-4CB3-91AA-102C7B8EAB7E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WxrNet</RootNamespace>
+    <AssemblyName>WxrNet</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Elasticsearch7|AnyCPU' ">
+    <OutputPath>bin\Elasticsearch7\</OutputPath>
+    <DefineConstants>DEBUG;ELASTICSEARCH_7;</DefineConstants>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.XmlSerializer" />
+    <Reference Include="System.Runtime.Serialization.Formatters" />
+    <Reference Include="System.Collections" />
+    <Reference Include="System.Globalization" />
+    <Reference Include="System.Xml.XmlDocument" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attachment.cs" />
+    <Compile Include="Author.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="CategoryTerm.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="Meta.cs" />
+    <Compile Include="OpenClosed.cs" />
+    <Compile Include="Post.cs" />
+    <Compile Include="Site.cs" />
+    <Compile Include="Status.cs" />
+    <Compile Include="Wxr.cs" />
+    <Compile Include="WxrSerializer.cs" />
+    <Compile Include="ZeroOne.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
